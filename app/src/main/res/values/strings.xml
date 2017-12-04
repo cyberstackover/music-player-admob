@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Firdaus Music</string>
+    <string name="banner_ad_unit_id">ca-app-pub-4814639232275291/2841924963</string>
+    <string name="hello_world">Firdaus Music</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_media_player">URL Media Player</string>
+    <string name="loading">Loading...</string>
+    <string name="file_not_found">File not found</string>
+</resources>

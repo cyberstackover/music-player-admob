@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <Button
+        android:backgroundTint="#05b902"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ELSA SAFIRA - SURAT CINTA UNTUK STARLA"
+        android:onClick="openPlayer"
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:backgroundTint="#05e101"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Anisa Rahma - MIMPI_TERINDAH"
+        android:onClick="openPlayer2"
+        android:id="@+id/button2"
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:backgroundTint="#05b902"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Elsa Safira - Indah Pada Waktunya"
+        android:onClick="openPlayer3"
+        android:id="@+id/button3"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:backgroundTint="#05e101"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Elsa Safira - Polisi"
+        android:onClick="openPlayer4"
+        android:id="@+id/button4"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:backgroundTint="#05b902"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="LALA WIDI - LUNGSET"
+        android:onClick="openPlayer5"
+        android:id="@+id/button5"
+        android:layout_below="@+id/button4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:backgroundTint="#05e101"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Lely Yuanita - Suket Teki"
+        android:onClick="openPlayer6"
+        android:id="@+id/button6"
+        android:layout_below="@+id/button5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:backgroundTint="#05b902"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="NIKEN APRILIA - DIA"
+        android:onClick="openPlayer7"
+        android:id="@+id/button7"
+        android:layout_below="@+id/button6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:backgroundTint="#05e101"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ratna Antika - GOYANG WALANG KEKE"
+        android:onClick="openPlayer8"
+        android:id="@+id/button8"
+        android:layout_marginTop="39dp"
+        android:layout_below="@+id/button6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:backgroundTint="#05b902"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ratna Antika - Konco Mesra"
+        android:onClick="openPlayer9"
+        android:id="@+id/button9"
+        android:layout_below="@+id/button7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp" />
+
+    <Button
+        android:backgroundTint="#05e101"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ratna Antika - Sambalado"
+        android:onClick="openPlayer10"
+        android:id="@+id/button10"
+        android:layout_below="@+id/button8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp" />
+
+    <!--menambahkan elemen AdView untuk menampilkan iklan/ads-->
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_marginBottom="9dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+    </com.google.android.gms.ads.AdView>
+
+
+
+</RelativeLayout>
